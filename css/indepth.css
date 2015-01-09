@@ -118,7 +118,8 @@
 	max-width: 380px;
 	margin-left: 30px;
 	letter-spacing: 1.7656px;
-
+	text-align: justify;
+	text-transform: uppercase;
 }
 
 
