@@ -6,7 +6,7 @@
 #indepth_page3{
 	background: url(../images/fondo.png);
 	background-repeat: repeat;
-	margin: 40px 0px;
+	padding: 40px 0px;
 }
 
 .indepth_pages{
@@ -91,7 +91,7 @@
 
 #indepth_cover .indepth_cover_back_body{
 	position: absolute;
-	bottom: 7%;
+	bottom: 9%;
 	background:#ff0446;
 	padding: 20px 0;
 	padding: 10px 35px;
@@ -342,13 +342,9 @@ margin-top: 15px;
 	width: 100%;
 }
 
-#indepth_page1{
-	background-color: #292929;
-}
 
-#indepth_page3{
-	//background-color: #eadb7b;
-}
+
+
 
 #indepth_page1 .indepth_text{
 	color: white;
@@ -489,20 +485,12 @@ margin-top: 15px;
 }
 
 @media screen and (max-width: 800px) {
-	.indepth_africa_mapa{
-	width: 100%;
-	height: auto;
-}
-
-#indepth_editor_profile{
-	width: 100%;
-	margin: auto;
-}
-
-.rertert{
-	width:440px;
-}
-
+	
+	
+	
+	
+	
+	
 #indepth_twitter_editor{
 	padding-left: 10px;
 }
