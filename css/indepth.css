@@ -647,6 +647,29 @@ margin-top: 15px;
 		background-position: 50% 50%;
 	}
 	
+	.indepth_image_movil{
+		display: block;
+		margin: auto;
+		width: 320px;	
+	}
+	
+	.indepth_image_movil img{
+		width: 100%;
+	}
+	
+	.indepth_image_1000{
+		display: none;
+	}
+	
+	.indepth_img_cir_container{
+		float: none;
+		width: 100%;
+	}
+	
+	.indepth_img_cir{
+		width: 100%;
+	}
+	
 	
 	
 	
