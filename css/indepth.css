@@ -6,6 +6,7 @@
 #indepth_page3{
 	background: url(../images/fondo.png);
 	background-repeat: repeat;
+	margin: 40px 0px;
 }
 
 .indepth_pages{
@@ -60,7 +61,6 @@
 
 #indepth_cover .indepth_titlle_container{
 	float: left;
-	width: 707px;
 	 color: #FFF;
 }
 
@@ -92,22 +92,33 @@
 #indepth_cover .indepth_cover_back_body{
 	position: absolute;
 	bottom: 7%;
-	background: rgb(0, 0, 0);
+	background:#ff0446;
 	padding: 20px 0;
 	width: 1000px;
+	padding: 20px 35px;
+	margin-left: 20px;
 }
 
 #indepth_cover .indepth_title{
-	font-size:39px;
+	font-size:70px;
 	color:#FFF;
 	text-transform: uppercase;
 	font-weight: 700;
+	float: left;
+	color: black;
+	max-width: 600px;
+	
 }
 
 #indepth_cover .indepth_subtitle{
-	font-size:17px;
+	font-size:36px;
 	color:#FFF;
 	font-weight: 400;
+	float: right;
+	max-width: 380px;
+	margin-left: 30px;
+	letter-spacing: 1.7656px;
+
 }
 
 
@@ -787,10 +798,34 @@ margin-top: 15px;
 	}
 	
 	#indepth_cover .indepth_title{
-		width: 100%;
-		font-size: 26px;
+		width: 95%;
+		font-size: 36px;
+		margin: auto;
 		margin-top: 0px;
+		max-width: 320px;
+		float: none;
+		text-align: center;
 	}
+	
+	#indepth_cover .indepth_subtitle{
+		float: none;
+		text-align: center;
+		width: 95%;
+		max-width: 320px;
+		font-size: 26px;
+	}
+	
+	#indepth_cover .indepth_cover_back_body{
+	position: relative;
+	bottom: 7%;
+	background:#ff0446;
+	padding: 20px 0;
+	width: 95%;
+	max-width: 320px;
+	padding: 10px 15px;
+	margin-left: 20px;
+	margin: auto;
+}
 	
 	#indepth_cover .indepth_cover_back_body{
 	}
