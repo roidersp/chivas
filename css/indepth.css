@@ -400,14 +400,44 @@ margin-top: 15px;
 
 
 #indepth_break_1 .indepth_parallax_back{
-	background-image: url(../images/break1.jpg)
+	background-image: url(../images/break3.jpg)
 }
 
 #indepth_break_2 .indepth_parallax_back{
 	background-image: url(../images/break2.jpg);
 }
 
+.indepth_image_movil{
+	display: none;
+}
 
+.indepth_image_1000{
+	max-width: 1000px;
+	margin: auto;
+	width: 90%;
+}
+
+
+.indepth_image_1000 img{
+	width: 100%;
+}
+
+.indepth_img_cir_cont{
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
+	
+}
+
+
+.indepth_img_cir{
+	width: 50%;
+	float: left;
+}
+
+.indepth_img_cir img{
+	width: 100%;
+}
 
 
 @media screen and (min-width: 1920px) {
