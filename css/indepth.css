@@ -3,7 +3,10 @@
 	display: none;
 }
 
-
+#indepth_page3{
+	background: url(../images/fondo.png);
+	background-repeat: repeat;
+}
 
 .indepth_pages{
 	width: 100%;
@@ -81,16 +84,17 @@
 
 #indepth_cover .indepth_parallax_back{
 	background-image: url(../images/portada.jpg);
-	background-position: 50% 0;
+	background-position: right top;
 	background-color: white;
 	background-size: cover;
 }
 
 #indepth_cover .indepth_cover_back_body{
-	position: relative;
-	top: 350px;
-	background: rgba(0, 0, 0, 0.40);
+	position: absolute;
+	bottom: 7%;
+	background: rgb(0, 0, 0);
 	padding: 20px 0;
+	width: 1000px;
 }
 
 #indepth_cover .indepth_title{
@@ -418,7 +422,7 @@ margin-top: 15px;
 .indepth_image_1000{
 	max-width: 1000px;
 	margin: auto;
-	width: 90%;
+	width: 100%;
 }
 
 
@@ -632,9 +636,11 @@ margin-top: 15px;
 	}
 	
 	#indepth_break_2 .indepth_text{
-		vertical-align: text-top;
-		padding-top: 20px;
+		
 	}
+	#indepth_break_2 .indepth_text_container{
+		background-color: rgba(149, 149, 149, 0.7);
+}
 	
 
 	
@@ -787,7 +793,6 @@ margin-top: 15px;
 	}
 	
 	#indepth_cover .indepth_cover_back_body{
-		top:240px;
 	}
 	
 	.indepth_break {
@@ -820,7 +825,7 @@ margin-top: 15px;
 	}
 	
 	#indepth_break_1 .indepth_parallax_back{
-		background-position:  50% 50%;
+		background-position:  35% 50%;
 	}
 	
 
@@ -868,9 +873,7 @@ margin-top: 15px;
 @media screen and (max-width: 360px) {
 
 	
-	#indepth_break_2 .indepth_text_container{
-		background-color: rgba(149, 149, 149, 0.7);
-}
+	
 }
 
 @media screen and (max-height: 414px) {
@@ -904,7 +907,6 @@ margin-top: 15px;
 height: 362px;
 }
 #indepth_cover .indepth_cover_back_body {
-top: 160px;
 }
 
 #indepth_cover .indepth_title {
