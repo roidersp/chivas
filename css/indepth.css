@@ -404,6 +404,10 @@ margin-top: 15px;
 }
 
 #indepth_break_2 .indepth_parallax_back{
+	background-image: url(../images/break1.jpg);
+}
+
+#indepth_break_3 .indepth_parallax_back{
 	background-image: url(../images/break2.jpg);
 }
 
